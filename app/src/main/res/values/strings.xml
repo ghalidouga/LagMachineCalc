@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LagMachineCalc</string>
+    <string name="about_this_app">About this app</string>
+    <string name="textview">TextView</string>
+    <string name="this_app_will_help_you_to_count_how_many_material_do_you_need_to_make_a_lag_machine_in_minecraft">This App will help you to count how many material do you need to make a lag machine in Minecraft.</string>
+    <string name="start">Start</string>
+    <string name="how_many_chunk_do_you_want">How many chunk do you want ?</string>
+    <string name="total_chunks">total chunks</string>
+    <string name="_1">1</string>
+    <string name="you_need">You Need</string>
+    <string name="piston">Piston</string>
+    <string name="observer">Observer</string>
+    <string name="armor_stand">Armor Stand</string>
+    <string name="resultPiston">Result</string>
+    <string name="resultObserver">Result</string>
+    <string name="resultArmorStand">Result</string>
+    <string name="confirm">Confirm</string>
+</resources>
