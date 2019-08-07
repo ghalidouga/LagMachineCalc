@@ -14,5 +14,19 @@
     <string name="resultPiston">Result</string>
     <string name="resultObserver">Result</string>
     <string name="resultArmorStand">Result</string>
+    <string name="cobblestone">Cobblestone</string>
+    <string name="resultCobblestone">Result</string>
+    <string name="woodplank">Wood Plank</string>
+    <string name="resultWoodPlank">Result</string>
+    <string name="ironingot">Iron Ingot</string>
+    <string name="resultIronIngot">Result</string>
+    <string name="redstonedust">Red Stone Dust</string>
+    <string name="resultRedStoneDust">Result</string>
+    <string name="netherquartz">Nether Quartz</string>
+    <string name="resultNetherQuartz">Result</string>
+    <string name="stick">Stick</string>
+    <string name="resultStick">Result</string>
+    <string name="stoneslab">Stone Slab</string>
+    <string name="resultStoneSlab">Result</string>
     <string name="confirm">Confirm</string>
 </resources>
