@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 int resultCobbleStone = (resultPiston * 4) + ( resultObserver * 6);
                 int resultWoodPlank = resultPiston * 3;
                 int resultIronIngot = resultPiston * 1;
+                //test
 
 
                 resultPistonTextView.setText(resultPiston + "");
