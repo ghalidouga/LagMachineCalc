@@ -25,6 +25,10 @@ public class MainActivity extends AppCompatActivity {
                 TextView resultCobbleStoneTextView = (TextView) findViewById(R.id.resultCobblestoneTextView);
                 TextView resultWoodPlankTextView = (TextView) findViewById(R.id.resultWoodPlankTextView);
                 TextView resultIronIngotTextView = (TextView) findViewById(R.id.resultIronIngotTextView);
+                TextView resultRedstoneDustTextView = (TextView) findViewById(R.id.resultRedstoneDustTextView);
+                TextView resultNetherQuartzTextView = (TextView) findViewById(R.id.resultNetherQuartzTextView);
+                TextView resultStickTextView = (TextView) findViewById(R.id.resultStickTextView);
+                TextView resultStoneSlabTextView = (TextView) findViewById(R.id.resultStoneSlabTextView);
 
                 int totalChunks = Integer.parseInt(totalChunkEditText.getText().toString());
                 int resultPiston = totalChunks * 256;
@@ -32,8 +36,12 @@ public class MainActivity extends AppCompatActivity {
                 int resultArmorStand = totalChunks * 256;
                 int resultCobbleStone = (resultPiston * 4) + ( resultObserver * 6);
                 int resultWoodPlank = resultPiston * 3;
-                int resultIronIngot = resultPiston * 1;
-                //test 123
+                int resultIronIngot = resultPiston;
+                int resultRedstoneDust = (resultPiston) + (resultObserver * 2);
+                int resultNetherQuartz = resultObserver;
+                int resultStick = resultArmorStand * 6;
+                int resultStoneSlab = resultArmorStand;
+
 
 
                 resultPistonTextView.setText(resultPiston + "");
@@ -42,6 +50,10 @@ public class MainActivity extends AppCompatActivity {
                 resultCobbleStoneTextView.setText(resultCobbleStone + "");
                 resultWoodPlankTextView.setText(resultWoodPlank + "");
                 resultIronIngotTextView.setText(resultIronIngot + "");
+                resultRedstoneDustTextView.setText(resultRedstoneDust + "");
+                resultNetherQuartzTextView.setText(resultNetherQuartz + "");
+                resultStickTextView.setText(resultStick + "");
+                resultStoneSlabTextView.setText(resultStoneSlab + "");
             }
         });
 //

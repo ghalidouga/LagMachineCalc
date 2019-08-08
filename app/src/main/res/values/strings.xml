@@ -20,8 +20,8 @@
     <string name="resultWoodPlank">Result</string>
     <string name="ironingot">Iron Ingot</string>
     <string name="resultIronIngot">Result</string>
-    <string name="redstonedust">Red Stone Dust</string>
-    <string name="resultRedStoneDust">Result</string>
+    <string name="redstonedust">RedStone Dust</string>
+    <string name="resultRedstoneDust">Result</string>
     <string name="netherquartz">Nether Quartz</string>
     <string name="resultNetherQuartz">Result</string>
     <string name="stick">Stick</string>
