@@ -29,4 +29,6 @@
     <string name="stoneslab">Stone Slab</string>
     <string name="resultStoneSlab">Result</string>
     <string name="confirm">Confirm</string>
+    <string name="_0">0</string>
+    <integer name="chunks">0</integer>
 </resources>

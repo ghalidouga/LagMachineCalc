@@ -15,6 +15,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.input_main);
         Button confirmButton = (Button) findViewById(R.id.confirmButton);
+        if (getIntent().hasExtra("com.ghalidouga.lagmachinecalc.START")){
+            EditText totalChunkEditText = (EditText) findViewById(R.id.totalChunkEditText);
+            totalChunkEditText.setText("0");
+        }
         confirmButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
